@@ -1,0 +1,33 @@
+.event{
+    display: inline-block;
+    font-family: 'Rubik', Courier, monospace;
+    background-color: red;
+    color: white;
+    border: 10px;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 24%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+ul > li {
+    list-style: none;
+}
+
+#boxes > li {
+    display:list-item;
+    margin:10px;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+#boxes {
+    background-color: black;
+    color: rgb(148, 136, 136);
+    border-radius: 5px;
+    padding: 20px;
+}
